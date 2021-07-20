@@ -23,7 +23,7 @@
 
 ![screenshot](https://miro.medium.com/max/1400/1*2BaGJecjJNBk0gGCUQJO2w.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+<!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering: -->
 
 - A simple REST API to format data for a client app.
 - Used the Weatherstack and Mapbox (for geolocation) APIs
