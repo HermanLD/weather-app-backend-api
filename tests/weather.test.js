@@ -2,22 +2,11 @@ const request = require("supertest");
 const app = require("../src/app");
 
 //? Reno coordinates
-const currLocation = {
-  lat: "39.5296",
-  lon: "-119.8138",
-  unit: "f",
-};
-
-const inputLocation = {
-  address: "Reno",
-  unit: "f",
-};
-
-const nonExistentLocation = {
-  lat: "xzkadsklje",
-  lon: "xysdfsdf5e",
-  unit: "f",
-};
+const {
+  currLocation,
+  inputLocation,
+  nonExistentLocation,
+} = require("./fixtures/queryURLs");
 
 //? COMMENTED TO CUTDOWN API REQUESTS
 // const { getForecast } = require("../src/utils/forecast");
@@ -34,23 +23,17 @@ const nonExistentLocation = {
 // });
 
 test("Get weather data with current location (lat/lon)", async () => {
-  const data = await request(app)
-    .get("/weather")
-    .send(currLocation)
-    .expect(200);
+  const data = await request(app).get(`/weather${currLocation}`).expect(200);
 
   console.log(data);
 });
 
 test("Get location weather data with user input", async () => {
-  const data = await request(app)
-    .get("/weather")
-    .send(inputLocation)
-    .expect(200);
+  const data = await request(app).get(`/weather${inputLocation}`).expect(200);
 
   console.log(data);
 });
 
 test("Should throw error if no weather data is found", async () => {
-  await request(app).get("/weather").send(nonExistentLocation).expect(404);
+  await request(app).get(`/weather${nonExistentLocation}`).expect(404);
 });
