@@ -10,7 +10,7 @@ const getForecast = async (lat, lon, unit) => {
       )}&days=6&key=${encodeURIComponent(process.env.WEATHERBIT_ACCESS_KEY)}`
     );
 
-    return res.data.data;
+    return res.data;
   } catch (error) {
     throw new Error();
   }
