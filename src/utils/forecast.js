@@ -7,7 +7,7 @@ const getForecast = async (lat, lon, unit) => {
         lat
       )}&lon=${encodeURIComponent(lon)}&units=${encodeURIComponent(
         unit
-      )}&days=6&key=${encodeURIComponent(process.env.WEATHERBIT_ACCESS_KEY)}`
+      )}&days=7&key=${encodeURIComponent(process.env.WEATHERBIT_ACCESS_KEY)}`
     );
 
     return res.data;
