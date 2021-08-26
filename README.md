@@ -40,7 +40,7 @@
 
 <!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering: -->
 
-- Like the example above, this backend was built to follow the Backend For Frontend (BFF) pattern
+- Like the example above, this backend was built to follow the [Backend For Frontend (BFF) pattern](https://blog.bitsrc.io/bff-pattern-backend-for-frontend-an-introduction-e4fa965128bf)
 - A simple REST API to format data for a client side app
 - Used the Weatherstack and Mapbox (for geolocation) APIs
 - Gained a better understanding of Async/Await
