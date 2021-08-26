@@ -89,5 +89,5 @@ $ npm test
 
 - Website [My Portfolio](https://portfolio-olive-alpha.vercel.app/)
 - GitHub [@HermanLD](https://github.com/HermanLD/)
-- Linkedin [@DardonHerman](https://twitter.com/DardonHerman/)
+- Linkedin [herman-dardon](https://www.linkedin.com/in/herman-dardon/)
 - Twitter [@DardonHerman](https://twitter.com/DardonHerman/)
