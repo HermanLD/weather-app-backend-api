@@ -3,7 +3,22 @@
 <h1 align="center">Weather App Backend API</h1>
 
 <div align="center">
-   Backend for <a href="https://devchallenges.io/">DevChallenge</a>
+   Backend for a <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a> challenge.
+</div>
+<div align="center">
+  <h3>
+    <a href="https://weather-app-frontend-sigma.vercel.app/">
+      Frontend Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/HermanLD/weather-app-frontend">
+      Frontend Repo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
+      Challenge
+    </a>
+  </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -25,10 +40,12 @@
 
 <!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering: -->
 
-- A simple REST API to format data for a client app.
+- Like the example above, this backend was built to follow the Backend For Frontend (BFF) pattern
+- A simple REST API to format data for a client side app
 - Used the Weatherstack and Mapbox (for geolocation) APIs
 - Gained a better understanding of Async/Await
 - Used Testing Driven Development (TDD) methodology to build a reliable backend
+- For more info about the frontend go to repository for the [client side App](https://github.com/HermanLD/weather-app-frontend)
 
 ### Built With
 
@@ -51,8 +68,8 @@
 - See humidity percentage
 - See a visibility indicator
 - See the air pressure number
-- Can request my current location weather
-- Can convert temperature in Celcius to Fahrenheit and vice versa
+- User can request current location weather
+- User can convert temperature in Celcius to Fahrenheit and vice versa
 
 ## How To Use
 
